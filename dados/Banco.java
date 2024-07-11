@@ -1,11 +1,16 @@
 package dados;
 
 public class Banco {
+	
+	private String nome;
 
-	public static void main(String[] args) {
-		System.out.println("Venha você ser pelado também.");
-		System.out.println("Aqui você entra cliente de outros bancos e sai pelado.");
-
+	public String getNome() {
+		return nome;
 	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
 
 }
