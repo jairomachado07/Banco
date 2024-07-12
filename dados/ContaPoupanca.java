@@ -1,39 +1,5 @@
 package dados;
 
-public class ContaPoupanca {
+public class ContaPoupanca extends Conta{
 	
-	private int agencia;
-	private int numero;
-	private double saldo;
-	
-	public ContaPoupanca(int agencia, int numero, double saldo) {
-		super();
-		this.agencia = agencia;
-		this.numero = numero;
-		this.saldo = 0d;
-	}
-	
-	public int getAgencia() {
-		return agencia;
-	}
-
-	public int getNumero() {
-		return numero;
-	}
-
-	public double getSaldo() {
-		return saldo;
-	}
-
-	public void sacar() {
-		
-	}
-	
-	public void depositar() {
-		
-	}
-	
-	public void tranferir() {
-		
-	}
 }
